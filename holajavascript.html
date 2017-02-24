@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hola mundo en javascript</h1>
+    <script>    
+        //ventana para meter texto
+        var nombre=window.prompt("cual es tu nombre")
+        //imprime lo que optuvo anteriormente
+        window.confirm("hola "+nombre+" quieres aprender mas java?")
+        //escribe en el documento
+        window.document.write("hola "+nombre+" me gusta javascript<br><br>")
+        //muestra algo solo en la consola
+        window.console.log("Hola consola")
+        var lenguajes=['HTML','css','java','php']
+        
+        for(var i=0;i<lenguajes.length;i++){
+            document.write('<tr>')
+            document.write('<td style="border:solid">')
+            document.write(lenguajes[i]+'<br>')
+            document.write('<tr>')
+            document.write('<td>')
+        }
+        //crear funcion con function nombre(){}
+    </script>
+</body>
+</html>
