@@ -4,5 +4,8 @@ body{
 .caja{
     padding:20px;
     margin: 10px;
-    background: lightsalmon;
+    background: lightblue;
+}
+.colorcoral{
+    background: coral;
 }
