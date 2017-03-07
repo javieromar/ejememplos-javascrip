@@ -1,0 +1,11 @@
+
+.boton{
+    width:30px; /*<!---ancho-->*/
+    height:30px; /*<!---alto-->*/
+    text-align: center
+}
+#pantalla{
+    width:150px; /*<!---ancho-->*/
+    height:30px; /*<!---alto-->*/
+    text-align: left
+}
