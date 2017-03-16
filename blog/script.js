@@ -1,4 +1,4 @@
-function tablas(){
+/*function tablas(){
     var i,j
     var num=prompt("incerte valor")
     var tab=new int[num][num]
@@ -9,4 +9,4 @@ function tablas(){
     }
     window.open(""'_blank')
     document.write('texto')
-}
+}*/
